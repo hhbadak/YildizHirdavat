@@ -1,0 +1,8 @@
+C:\Users\HsnHs\OneDrive\Belgeler\GitHub\YildizHirdavat\YildizHirdavat\bin\Debug\YildizHirdavat.exe.config
+C:\Users\HsnHs\OneDrive\Belgeler\GitHub\YildizHirdavat\YildizHirdavat\bin\Debug\YildizHirdavat.exe
+C:\Users\HsnHs\OneDrive\Belgeler\GitHub\YildizHirdavat\YildizHirdavat\bin\Debug\YildizHirdavat.pdb
+C:\Users\HsnHs\OneDrive\Belgeler\GitHub\YildizHirdavat\YildizHirdavat\obj\Debug\YildizHirdavat.csproj.AssemblyReference.cache
+C:\Users\HsnHs\OneDrive\Belgeler\GitHub\YildizHirdavat\YildizHirdavat\obj\Debug\YildizHirdavat.csproj.SuggestedBindingRedirects.cache
+C:\Users\HsnHs\OneDrive\Belgeler\GitHub\YildizHirdavat\YildizHirdavat\obj\Debug\YildizHirdavat.csproj.CoreCompileInputs.cache
+C:\Users\HsnHs\OneDrive\Belgeler\GitHub\YildizHirdavat\YildizHirdavat\obj\Debug\YildizHirdavat.exe
+C:\Users\HsnHs\OneDrive\Belgeler\GitHub\YildizHirdavat\YildizHirdavat\obj\Debug\YildizHirdavat.pdb
