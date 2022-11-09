@@ -36,6 +36,7 @@ namespace YildizHirdavat
             Array.Copy(gardenMaterials, test, gardenMaterials.Length);
             test[test.Length - 1] = gm;
             gardenMaterials = test;
+
         }
         public void Add(MeasuringDevice md)
         {
@@ -86,7 +87,7 @@ namespace YildizHirdavat
             test[test.Length - 1] = ws;
             workSafetys = test;
         }
-        public void Product(Warehouse w)
+        public void Product()
         {
             GardenMaterial gm = new GardenMaterial()
             {
@@ -99,10 +100,10 @@ namespace YildizHirdavat
                 price = 4.750,
                 stock = 12
             };
-            w.Add(gm);
+            Add(gm);
             GardenMaterial gm1 = new GardenMaterial()
             {
-                productCode = gardenMaterials[gardenMaterials.Length].productCode + 1,
+                productCode = 102,
                 productName = "Bahçe Makası",
                 productFeatures = "Darbe Emici, Ayarlanılabilir, Yumuşak Tutamaklar",
                 brand = "Çebi",
@@ -111,10 +112,10 @@ namespace YildizHirdavat
                 price = 420,
                 stock = 25
             };
-            w.Add(gm);
+            Add(gm1);
             GardenMaterial gm2 = new GardenMaterial()
             {
-                productCode = gardenMaterials.Length + 1,
+                productCode = 103,
                 productName = "Çardak",
                 productFeatures = "6 Kişilik 4 Mevsim Özellikli",
                 brand = "BDK",
@@ -123,10 +124,10 @@ namespace YildizHirdavat
                 price = 4.750,
                 stock = 12
             };
-            w.Add(gm);
+            Add(gm2);
             GardenMaterial gm3 = new GardenMaterial()
             {
-                productCode = gardenMaterials[gardenMaterials.Length].productCode + 1,
+                productCode = 104,
                 productName = "Çardak",
                 productFeatures = "6 Kişilik 4 Mevsim Özellikli",
                 brand = "BDK",
@@ -135,7 +136,7 @@ namespace YildizHirdavat
                 price = 4.750,
                 stock = 12
             };
-            w.Add(gm);
+            Add(gm3);
             GardenMaterial gm4 = new GardenMaterial()
             {
                 productCode = 105,
@@ -147,7 +148,7 @@ namespace YildizHirdavat
                 price = 4.750,
                 stock = 12
             };
-            w.Add(gm);
+            Add(gm4);
 
         }
         public void List()
@@ -183,11 +184,11 @@ namespace YildizHirdavat
                 }
                 if (secim == "1")
                 {
-                    GardenMaterial gardenMaterial = new GardenMaterial();
+                    
                     Console.WriteLine("Bahçe Malzemeleri Bölümüne Hoşgeldiniz");
                     for (int i = 0; i < gardenMaterials.Length; i++)
                     {
-                        Console.WriteLine();
+                        Console.WriteLine(gardenMaterials[i].Print());
                     }
                 }
                 else if (secim == "2")

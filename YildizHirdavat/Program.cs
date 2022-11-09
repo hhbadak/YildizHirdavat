@@ -14,6 +14,7 @@ namespace YildizHirdavat
 
             #endregion
             Warehouse w = new Warehouse();
+            w.Product();
             w.List();
         }
     }

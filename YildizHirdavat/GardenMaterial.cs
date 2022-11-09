@@ -16,7 +16,7 @@ namespace YildizHirdavat
         public string unit;
         public double price;
         public int stock;
-        public string Print()
+        public string Print( )
         {
             return $"Ürün Kodu: {productCode}\nÜrün Adı: {productName}\nÜrün Özellikleri: {productFeatures}\nMarka: {brand}\nElektronik Özelliği: {electronic}\nBirim: {unit}\nFiyat: {price}\nKalan Stok: {stock}";
         }
